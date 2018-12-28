@@ -104,6 +104,9 @@ p {
 .icons {
   width: 20%;
 }
+.wr_skills .icons {
+  width: 35%;
+}
 .wr_links:nth-child(2) {
   padding: 10px 15px;
 }
@@ -124,14 +127,15 @@ p {
   grid-row: 3/4;
 }
 i {
-  font-size: 40px;
-  margin-top: 10px;
+  font-size: 45px;
+  margin-bottom: 15px;
 }
 .wr_skills {
   grid-row: 2;
   display: grid;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 100px);
   text-align: center;
+  justify-content: center;
 }
 input,
 textarea {
@@ -239,6 +243,9 @@ button:hover {
   .back {
     font-size: 12px;
   }
+  .wr_skills {
+    grid-template-columns: 100px;
+  }
 }
 @media screen and (max-width: 640px) {
   .container {
@@ -288,5 +295,16 @@ button:hover {
   }
   footer {
     grid-row: 7;
+  }
+  .wr_skills {
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, 70px);
+    justify-content: center;
+  }
+  .wr_skills .icons {
+    width: 50%;
+  }
+  .gallery:hover .inner {
+    transform: rotateY(0deg);
   }
 }
