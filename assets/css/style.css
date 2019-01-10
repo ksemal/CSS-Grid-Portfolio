@@ -15,7 +15,7 @@ body {
   grid-row-gap: 45px;
   width: 100%;
   min-height: 100vh;
-  margin: 0;
+  margin: 0 auto;
   grid-template-rows: 62px 180px auto auto 62px;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   color: #777777;
@@ -222,6 +222,9 @@ button:hover {
 }
 .back {
   transform: rotateY(180deg);
+  background-color: white;
+  box-shadow: 5px 5px 25px #888888a8;
+  font-size: 14px;
 }
 @media screen and (max-width: 768px) {
   .main-content {
