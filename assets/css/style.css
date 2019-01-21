@@ -165,7 +165,7 @@ button:hover {
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, 200px);
+  grid-template-rows: repeat(5, 200px);
   grid-gap: 40px;
   padding: 0 40px 40px 40px;
 }
