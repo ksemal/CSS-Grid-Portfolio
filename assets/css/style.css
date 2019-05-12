@@ -165,7 +165,7 @@ button:hover {
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(8, 200px);
+  grid-template-rows: repeat(5, 200px);
   grid-gap: 40px;
   padding: 0 40px 40px 40px;
 }
@@ -191,9 +191,9 @@ button:hover {
   font-size: 120%;
   text-align: center;
   padding: 15px;
-  background-color: #0000005e;
+  background-color: rgba(255, 255, 255, 0.9);
   font-family: "Georgia", Times, Times New Roman, serif;
-  color: #ffffff;
+  color: rgb(0, 173, 164);
   width: 100%;
   bottom: 20px;
   position: absolute;
